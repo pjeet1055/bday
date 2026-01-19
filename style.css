@@ -176,14 +176,11 @@ body {
 
 .title .happy span,
 .title .birthday span {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    animation: none;
-    /*transform: translateY(50px);
+    
+    transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
-    animation: txtTranslateY .5s var(--t) forwards;*/
+    animation: txtTranslateY .5s var(--t) forwards;
 }
 
 @keyframes txtTranslateY {
@@ -243,8 +240,8 @@ body {
     opacity: 0;
     visibility: hidden;
     width: 0px;
-   /* animation: dateOfBirth 5s 9s forwards;*/
-   animation : none;
+   animation: dateOfBirth 5s 9s forwards;
+   
 }
 
 @keyframes dateOfBirth {
@@ -299,10 +296,9 @@ body {
 
 .right .box__account {
     position: relative;
-    transform: translateY(0);
-    animation: none
-   /* transform: translateY(700px);
-    animation: topBoxImage 8s 7s forwards ease-in;*/
+   
+   transform: translateY(700px);
+    animation: topBoxImage 8s 7s forwards ease-in;
 }
 
 @keyframes topBoxImage {
