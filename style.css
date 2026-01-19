@@ -1032,19 +1032,8 @@ body {
     font-size: 1.3rem;
     text-align: center;
 }
-/* no animation logic */
-/* === TEMPORARY: TURN OFF ALL ANIMATIONS === */
-.no-anim *{
-    animation: none !important;
-    transition: none !important;
-}
-/* Disable animation only for book letter */
-.no-book-anim .box__bookletter *,
-.no-book-anim .box__bookletter {
-    animation: none !important;
-    transition: none !important;
-    transform: none !important;
-}
+
+
 /* Force book to appear instantly while editing */
 .debug-book .box__bookletter{
     display: flex !important;
